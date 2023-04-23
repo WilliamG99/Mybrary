@@ -56,7 +56,7 @@ router.get("/:id", async (req, res) => {
         console.log(err);
         res.redirect("/");
     }
-	console.log(req.params.id);
+	//console.log(req.params.id);
     //res.send("Author ID: " + `/authors/${req.params.id}`);
 });
 

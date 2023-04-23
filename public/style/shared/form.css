@@ -32,6 +32,10 @@
     justify-content: end;
 }
 
+.form-row-begin {
+    justify-content: start;
+}
+
 .form-item label {
     font-size: var(--form-label-font-size);
     margin-bottom: .25rem;
@@ -72,10 +76,11 @@
 
 .filepond--panel-root {
     background-color: var(--form-input-background-color);
-    border: 1px solid var(--form-input-background-color);
+    border: 1px solid var(--form-input-border-color);
 }
 
 .filepond--drop-label {
     color: var(--color-text-light);
     font-size: inherit;
+    margin-top: 1rem;
 }
